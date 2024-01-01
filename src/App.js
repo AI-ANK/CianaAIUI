@@ -51,7 +51,7 @@ const App = () => {
           .trim()
           .toLowerCase();
         console.log(transcript);
-        if (transcript.includes("sienna")) {
+        if (transcript.includes("siyana")) {
           toggleRecording(); // Start the main speech recognition process
         }
       };
